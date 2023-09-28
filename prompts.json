@@ -1,6 +1,6 @@
 {
     "greetings": {
-        "name": "PROMPT CLI",
+        "name": "Q&A CLI",
         "desciption": "Colete informações a partir da linha de comando."
     },
     "prompts": [
@@ -39,25 +39,6 @@
                 {
                     "name": "leão",
                     "answer": "lion"
-                }
-            ]
-        },
-        {
-            "name": "love_foods",
-            "question": "Qual sua comida favorita?",
-            "key": "food",
-            "options": [
-                {
-                    "name": "arroz",
-                    "answer": "rice"
-                },
-                {
-                    "name": "feijão",
-                    "answer": "bean"
-                },
-                {
-                    "name": "carne",
-                    "answer": "meat"
                 }
             ]
         }

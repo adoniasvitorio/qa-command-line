@@ -1,6 +1,9 @@
-# GitHub User Info CLI
+# Q&A CLI
 
-Este é um projeto de linha de comando simples em Node.js que permite que você obtenha informações de um usuário do GitHub.
+![Q&A CLI](./peek.gif)
+
+Q&A - Um lançador de Perguntas e Respostas Interativas para linha de comando! 
+Este projeto oferece uma experiência interativa onde os usuários podem responder a uma série de perguntas a partir de um arquivo `.json` e receber resultados personalizados. É uma aplicação versátil que pode ser adaptada para diversas finalidades, como pesquisas, questionários ou jogos.
 
 ## Como Usar
 
@@ -9,12 +12,12 @@ Este é um projeto de linha de comando simples em Node.js que permite que você 
 Você pode clonar este projeto para o seu computador usando o seguinte comando Git:
 
 ```bash
-git clone https://github.com/adoniasvitorio/nodejs-command-line.git
+git clone https://github.com/adoniasvitorio/qa-command-line.git
 ```
 
 ### Executando o Projeto
 ```bash
-cd nodejs-command-line
+cd qa-command-line
 ```
 ```bash
 node index.js
@@ -35,10 +38,25 @@ node index.js
 
 Certifique-se de atualizar as descrições de acordo com as informações reais do seu arquivo JSON. Isso fornecerá uma documentação clara das propriedades e de como elas são usadas no seu projeto.
 
+### Funcionalidades Principais
+
+- **Perguntas Personalizadas:** Adicione facilmente perguntas e opções de resposta ao arquivo JSON, tornando a personalização simples e rápida.
+
+- **Saudações de Boas-Vindas:** Cumprimente os usuários com uma mensagem amigável antes de começarem a responder às perguntas.
+
+- **Interação Passo a Passo:** As perguntas são apresentadas uma de cada vez, permitindo que os usuários respondam com calma e precisão.
+
+- **Armazenamento de Respostas:** Todas as respostas dos usuários são armazenadas e podem ser exibidas no final da interação.
 
 ### Dependências do Projeto
 
 [readline](https://nodejs.org/api/readline.html): Um módulo Node.js que facilita a leitura de entrada do usuário na linha de comando.
 Você pode encontrar uma lista completa de dependências no arquivo package.json do projeto.
 
-### Testes
+### Contribuição
+
+Contribuições são bem-vindas! Se você deseja melhorar este projeto, sinta-se à vontade para criar um fork e enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença [MIT](LICENSE).
