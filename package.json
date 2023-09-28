@@ -1,0 +1,28 @@
+{
+  "name": "commando-line",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "answer",
+    "answers",
+    "ask",
+    "cli",
+    "command",
+    "command-line",
+    "javascript",
+    "menu",
+    "node",
+    "nodejs",
+    "prompt",
+    "stdin",
+    "stdout",
+    "terminal",
+    "bash"
+  ],
+  "author": "adoniasvitorio",
+  "license": "ISC"
+}
